@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+    <title>Dynamic QR Code Generator</title>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            DYNAMIC QR CODE GENERATOR
+        </div>
+
+        <div class="body">
+            <div class="instruction__container">
+                Enter Link or Content and Click Submit to Generate QR Code
+            </div>
+            <div class="form">
+                <form>
+                    <input type="text" class = "textfield" id = "qr-content"
+                    autocomplete="off"
+                    >
+                </form>
+            </div>
+            <div class="submit__container">
+                <button class="submit" id = "submit">
+                    Submit
+                </button>
+            </div>
+            <div class="qr-code">
+                <div id = "qr-code"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src = "script.js">
+        
+    </script>
+</body>
+</html>
