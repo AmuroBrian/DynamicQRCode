@@ -106,7 +106,8 @@
         background-color: #17171f;
         width: 100vw;
         height: 100vh;
-        display: grid;
+        display: flex;
+        flex-direction: column;
     }
     
     .header {
